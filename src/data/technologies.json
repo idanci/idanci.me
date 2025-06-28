@@ -1,0 +1,102 @@
+{
+  "technologies": [
+    {
+      "name": "Ruby",
+      "href": "https://www.ruby-lang.org",
+      "title": "Programming Language",
+      "logo": "/ruby.png",
+      "description": [
+        "Rails, Sinatra, Rack, Grape, Hanami",
+        "Rspec, Minitest, Capybara, Cucumber, Selenium"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "href": "https://www.javascript.com",
+      "title": "Programming Language",
+      "logo": "/javascript.png",
+      "description": [
+        "Node, Express, Nest, Next",
+        "React, Backbone, Vue, Svelte"
+      ]
+    },
+    {
+      "name": "PHP",
+      "href": "https://www.php.net",
+      "title": "Programming Language",
+      "logo": "/php.png",
+      "description": [
+        "Symfony"
+      ]
+    },
+    {
+      "name": "Java",
+      "href": "https://www.java.com",
+      "title": "Programming Language",
+      "logo": "/java.png",
+      "description": [
+        "Spring Boot/Data/Cloud/Security/Batch",
+        "Hibernate, JPA"
+      ]
+    },
+    {
+      "name": "RDBMS",
+      "href": "#",
+      "title": "Relational Databases and Utilities",
+      "logo": "/database.png",
+      "description": [
+        "PostgreSQL, MySQL, SQLite, Oracle, Supabase",
+        "pt-online-schema-change, gh-ost",
+        "aws rds, gcp cloud sql, planetscale",
+        "MySQL Workbench, pgAdmin, TablePlus"
+      ]
+    },
+    {
+      "name": "NoSQL Databases",
+      "href": "#",
+      "title": "NoSQL Databases",
+      "logo": "/nosql.png",
+      "description": [
+        "MongoDB, Redis, Elasticsearch, DynamoDB, Firebase"
+      ]
+    },
+    {
+      "name": "Cloud Services",
+      "href": "#",
+      "title": "Cloud Services and Hosting",
+      "logo": "/cloud.png",
+      "description": [
+        "AWS, GCP, DigitalOcean, Vercel, Heroku, Hetzner"
+      ]
+    },
+    {
+      "name": "CI/CD",
+      "href": "#",
+      "title": "Continuous Integration and Delivery",
+      "logo": "/ci-cd.png",
+      "description": [
+        "GitHub Actions, GitLab CI, CircleCI, Travis CI, Jenkins, Slack, Discord"
+      ]
+    },
+    {
+      "name": "Observability",
+      "href": "#",
+      "title": "Monitoring, Logging, Error Tracking and Alerting",
+      "logo": "/monitoring.png",
+      "description": [
+        "Elasticsearch/Kibana/Logstash, Grafana/InfluxDB/Telegraf",
+        "Datadog APM/Logs/Metrics/Events/RUM, Sentry, AppSignal, New Relic, Errbit, PagerDuty",
+        "CloudWatch, GCP Logging"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "href": "#",
+      "title": "DevOps & Infra",
+      "logo": "/devops.png",
+      "description": [
+        "Docker, Kubernetes, Minikube, Helm, Terraform, Ansible, Chef, Kamal, Vagrant, Vmware"
+      ]
+    }
+  ]
+}

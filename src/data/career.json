@@ -1,56 +1,153 @@
 {
   "career": [
     {
-      "name": "DBS Bank",
-      "href": "https://www.dbs.com.sg",
-      "title": "Graduate Associate (SEED Programme)",
-      "logo": "/dbs.png",
-      "start": "Jul 2023",
+      "name": "Mollie",
+      "href": "https://www.mollie.com",
+      "title": "Senior Software Engineer",
+      "logo": "/mollie.png",
+      "start": "Feb 2024",
+      "end": "Present",
       "description": [
-        "Developed the Java backend for a bank account servicing process with multiple channel integrations using Activiti workflow",
-        "Built a custom database migration tool using Python and MariaDB and facilitated the migration of 1000+ processes from a vendor platform"
+        "Participated in designing and implementing a solution for card details tokenization",
+        "Implemented a solution for securely importing and exporting card details",
+        "Implemented a solution for managing point of sale terminals configuration and their software updates and customization",
+        "Setup billing and subscription management for charging transaction fees as well as for charging fees for the usage custom billable products",
+        "Direct communication and perform debugging during incidents, propose scalable solutions for gradual rollouts",
+        "Implemented end-to-end general performance and query optimizations",
+        "Set up custom dashboards and alerts to track key metrics such as latency, error rates, and resource usage"
       ]
     },
     {
-      "name": "Singapore Institute of Technology",
-      "href": "https://www.singaporetech.edu.sg",
-      "title": "Software Developer (Contract)",
-      "logo": "/sit.png",
-      "start": "Apr 2023",
-      "end": "Jun 2023",
+      "name": "WeTransfer",
+      "href": "https://wetransfer.com",
+      "title": "Senior Software Engineer",
+      "logo": "/wetransfer.png",
+      "start": "Nov 2021",
+      "end": "Jan 2024",
       "description": [
-        "Built NFTVue, a NFT gallery website that allows students to connect their crypto wallets to view and verify their school event-issued NFTs",
-        "Worked on DemoConstruct, a full-stack web application (React + Python) that uses Meshroom to reconstruct 3D models from captured images"
-      ],
-      "links": [
-        {
-          "name": "NFTVue",
-          "href": "https://nftvue.vercel.app",
-          "icon": "globe"
-        }
+        "Develop \"backend for frontend\" for https://portals.wetransfer.com",
+        "Deliver consultancy service to wetransfer engineers on creation of GraphQL API for supplement or replacement of prior set of REST APIs",
+        "Direct communication and perform debugging during incidents as well as propose scalable solutions for gradual rollouts through canary releases",
+        "Generate PoCs for evaluation of multiple API gateway solutions, including tyk, kong, aws appsync, and apollo",
+        "Lead end-to-end general performance and query optimizations",
+        "Set up custom dashboards and alerts to track key metrics such as latency, error rates, and resource usage",
+        "Optimised system reliability and performance through implementation of monitoring and observability solutions via utilisation of Datadog",
+        "Minimised overall downtime and improved database availability by implementing the online schema change approach using gh-ost",
+        "Successfully upgraded monolith from ruby 2.7 to 3.2 and rails from 5 to 6, whilst preparing the app for rails 7"
       ]
     },
     {
-      "name": "DBS Bank",
-      "href": "https://www.dbs.com.sg",
-      "title": "Software Developer (Intern)",
-      "logo": "/dbs.png",
-      "start": "May 2022",
-      "end": "Dec 2022",
+      "name": "Currencycloud",
+      "href": "https://www.currencycloud.com",
+      "title": "Senior Software Engineer",
+      "logo": "/currencycloud.png",
+      "start": "Mar 2021",
+      "end": "Oct 2021",
       "description": [
-        "Worked on the backend for the digital exchange and asset custody application using Spring Boot and Java",
-        "Built an admin dashboard web application for a DBS Metaverse event using Spring Security and Angular"
+        "Leveraged multiple tools and frameworks, including rails, nextJS/react, graphql, RabbitMQ, elasticsearch, NodeJS, Ruby, k8s, datadog, wiremock, pact, and playwright",
+        "Formulated efficient technical standards and guidelines for ruby guild company-wide",
+        "Enabled end-to-end testing for newly built features, whilst setting-up preview environments for testing new apps",
+        "Optimised docker images for speed improvement of building, security, and occupied space",
+        "Incorporated engineering context into strategic decisions as well as interfaced with stakeholders",
+        "Conducted training sessions and sponsored junior engineers for driving growth in skills and careers"
       ]
     },
     {
-      "name": "Activate Interactive Pte Ltd",
-      "href": "https://www.activate.sg",
-      "title": "Software Developer (Intern)",
-      "logo": "/activate.png",
-      "start": "May 2019",
-      "end": "Aug 2019",
+      "name": "Impraise",
+      "href": "#",
+      "title": "Senior Software Engineer",
+      "logo": "/impraise.png",
+      "start": "Apr 2020",
+      "end": "Mar 2021",
       "description": [
-        "Developed RP Connect, the iOS and Android mobile app for Republic Polytechnic using React Native"
+        "Implemented templating engine that allowed setting-up of recurring surveys and questionnaires",
+        "Implemented scheduler to run recurring events as well as implemented service for tracking surveys and questionnaires stats and generating reports",
+        "Utilised different tools and frameworks, including rails, react, graphql, grpc, RabbitMQ, NodeJS, Ruby, Elixir, k8s, and datadog",
+        "Optimised queries performance through batch loading for relieving db stress and speed-up responses"
+      ]
+    },
+    {
+      "name": "Lumos Labs (Lumosity)",
+      "href": "http://www.lumosity.com",
+      "title": "Senior Software Engineer",
+      "logo": "/lumoslabs.png",
+      "start": "Dec 2019",
+      "end": "Jun 2020",
+      "description": [
+        "Maintained and upgraded out-of-date ruby as well as js dependencies",
+        "Removed deprecated code and rectified security issues",
+        "Utilised accessibility features and adapted landing pages",
+        "Integrated GitLab with Transifex service"
+      ]
+    },
+    {
+      "name": "Aejis",
+      "href": "http://aejis.eu",
+      "title": "Senior Software Engineer",
+      "logo": "/aejis.png",
+      "start": "Oct 2019",
+      "end": "Jun 2020",
+      "description": [
+        "Migrated a static web page pertaining to a single individual into rails application with integrated payments system",
+        "Incorporated admin interface with activeadmin and possibility for easy addition of other individuals' pages with their own independent static pages, stylesheets, js, and billing/aws configurations",
+        "Managed integration of stripe payments api to allow subscriptions and one-time donations",
+        "Deployed project from initiation to completion to heroku and separately for dedicated server with capistrano"
+      ]
+    },
+    {
+      "name": "Endava",
+      "href": "https://www.endava.com",
+      "title": "Senior Software Engineer",
+      "logo": "/endava.png",
+      "start": "Oct 2018",
+      "end": "Nov 2019",
+      "description": [
+        "Actively contributed to regular code reviews, stand-ups, demos, architecture design discussions, and knowledge transfer sessions",
+        "Conducted mentoring sessions for junior/mid-level ruby developers to unlock internal potential",
+        "Instituted rails application through API for mobile devices and back office for administrators",
+        "Leveraged azure api to set up events and invite people by exporting reports and uploading presentation materials, whilst adding admin interface",
+        "Implemented notification system; sending Backend emails with attachments, sending iOS, and android push notifications using firebase, creates events in users' calendars using azure api",
+        "Implemented permissions system, region restricted, and public/private events with personal invitations",
+        "Implemented new data-driven mechanism of requests routing through the platform",
+        "Implemented quoting/trading apis using REST APIs of American bank",
+        "Managed addition of numerous elasticsearch aggregators to transaction monitoring service"
+      ]
+    },
+    {
+      "name": "Salt Edge",
+      "href": "https://www.saltedge.com",
+      "title": "Lead Engineer",
+      "logo": "/saltedge.png",
+      "start": "Apr 2013",
+      "end": "Aug 2018",
+      "description": [
+        "Monitored implementation of in-house build SSO platform based on LDAP",
+        "Orchestrated interviews of dev candidates and coaching sessions for newcomers as well as helped during onboarding process, tasks delegation, and performance evaluation",
+        "Steered implementation of 100+ adapters for numerous banks by leveraging web driver, APIs, and file parsers",
+        "Managed implementation of customer support application for customers' inquiries",
+        "Delivered customer and technical support for SaltEdge API clients and end-users",
+        "Aided migration of the company's codebase from GitHub to GitLab",
+        "Headed configuration of GitLab CI/CD and setup pipelines for ruby/rails applications",
+        "Actively participated in discussions of architecture design regarding scaling micro services, selenium farms, and API performance",
+        "Supported in implementation of db sharding proof of concept using ar-octopus, whilst deploying and testing on staging environment, ready for prod",
+        "Led high-performance team comprising five developers",
+        "Conceptualised white-label solutions for banks allowing networking to core banking to services and exposed various different variations of public PSD2-compliant APIs",
+        "Wrote effective example applications for banks and trusted third parties",
+        "Provided customer and technical support for Priora clients",
+        "Built APIs for financial information extraction and payments initiation"
+      ]
+    },
+    {
+      "name": "Fusion Works",
+      "href": "https://fusion.works",
+      "title": "Ruby Developer",
+      "logo": "/fusionworks.png",
+      "start": "Oct 2012",
+      "end": "Jun 2016",
+      "description": [
+        "Software Engineer role focusing on Ruby development",
+        "Contributed to various software development projects",
+        "Gained foundational experience in web development and software engineering practices"
       ]
     }
   ]

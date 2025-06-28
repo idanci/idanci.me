@@ -1,10 +1,8 @@
 "use client";
 
-import { ChatProvider } from "@/contexts/ChatContext";
 import { ThemeProvider, useTheme } from "next-themes";
 import React from "react";
 import { Toaster } from "sonner";
-import Chat from "./Chat";
 
 export default function Providers({ children }: { children: React.ReactNode }) {
   return (
@@ -14,10 +12,7 @@ export default function Providers({ children }: { children: React.ReactNode }) {
       defaultTheme="system"
       disableTransitionOnChange
     >
-      <ChatProvider>
-        {children}
-        <Chat />
-      </ChatProvider>
+      {children}
       <ToastProvider />
     </ThemeProvider>
   );

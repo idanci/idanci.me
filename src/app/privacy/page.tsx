@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const lastUpdated = "Sep 2024";
+const lastUpdated = "Jun 2025";
 
 export default function page() {
   return (
@@ -14,22 +14,16 @@ export default function page() {
         <p>
           Thanks for stopping by! This <b>Privacy Policy</b> is just here to let
           you know how things work around here. My website is mainly about
-          showcasing my work, and I&apos;m all about respecting your privacy.
+          showcasing experience and I&apos;m all about respecting your privacy.
         </p>
         <h2 className="title">What Information I Collect (Hint: Not Much)</h2>
         <p>
-          Honestly, this is just a static portfolio site, so I don&apos;t
+          Honestly, this is just a static resume site, so I don&apos;t
           actively collect any personal information. There&apos;s no account
           creation, no tracking cookies, and definitely no sneaky data
           gathering.
         </p>
-        <h3>1. Chatbot Conversations</h3>
-        <p>
-          If you send a message through the chatbot, it might be stored for
-          caching and training purposes. So please avoid sharing any
-          confidential info in the chat.
-        </p>
-        <h3>2. Contact Info</h3>
+        <h2 className="title">Contact Info</h2>
         <p>
           If you reach out via email or the contact form, the info you provide
           is entirely up to you. I&apos;ll only use it to reply and have a
@@ -65,7 +59,7 @@ export default function page() {
         <p>
           If you have any questions, concerns, or just want to say hi, drop me
           an email at{" "}
-          <Link href="mailto:hello@tedawf.com">hello@tedawf.com</Link> or use
+          <Link href="mailto:contact@idanci.me">contact@idanci.me</Link> or use
           the <Link href="/contact">contact form</Link>. I&apos;d love to hear
           from you!
         </p>
