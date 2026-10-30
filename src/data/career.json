@@ -1,12 +1,27 @@
 {
   "career": [
     {
+      "name": "Remote",
+      "href": "https://remote.com",
+      "title": "Senior Software Engineer",
+      "logo": "/remote.png",
+      "start": "Jul 2026",
+      "end": "Present",
+      "description": [
+        "Develop features end-to-end across an Elixir/Phoenix backend and a React/TypeScript frontend, backed by PostgreSQL and Oban background jobs",
+        "Build and maintain integrations with third-party US payroll and e-signature providers, covering company and employee provisioning, tax setup, payroll runs and online notarization",
+        "Investigate production incidents and fix performance, concurrency and data consistency issues using Sentry, Snowflake and PostgreSQL query plan analysis",
+        "Work AI-native with Claude Code, Cursor and opencode, running parallel agent sessions in isolated git worktrees and local environments from investigation to merge request, extended with custom skills and plugins",
+        "Delegate work to cloud agents and set up agent loops and automations in tools like Linear, Notion and Gemini",
+        "Connect AI agents to engineering tools through MCP (Sentry, Linear, Snowflake, Notion, Slack) for faster incident triage, data analysis and code review"      ]
+    },
+    {
       "name": "Mollie",
       "href": "https://www.mollie.com",
       "title": "Senior Software Engineer",
       "logo": "/mollie.png",
       "start": "Feb 2024",
-      "end": "Present",
+      "end": "Jun 2026",
       "description": [
         "Participated in designing and implementing a solution for card details tokenization",
         "Implemented a solution for securely importing and exporting card details",

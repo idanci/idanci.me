@@ -11,12 +11,22 @@
       ]
     },
     {
+      "name": "Elixir",
+      "href": "https://elixir-lang.org",
+      "title": "Programming Language",
+      "logo": "/elixir.png",
+      "description": [
+        "Phoenix, Ecto, Oban, OTP",
+        "ExUnit, Livebook"
+      ]
+    },
+    {
       "name": "JavaScript",
       "href": "https://www.javascript.com",
       "title": "Programming Language",
       "logo": "/javascript.png",
       "description": [
-        "Node, Express, Nest, Next",
+        "TypeScript, Node, Express, Nest, Next",
         "React, Backbone, Vue, Svelte"
       ]
     },
@@ -45,7 +55,7 @@
       "title": "Relational Databases and Utilities",
       "logo": "/database.png",
       "description": [
-        "PostgreSQL, MySQL, SQLite, Oracle, Supabase",
+        "PostgreSQL, MySQL, SQLite, Oracle, Supabase, Snowflake",
         "pt-online-schema-change, gh-ost",
         "aws rds, gcp cloud sql, planetscale",
         "MySQL Workbench, pgAdmin, TablePlus"

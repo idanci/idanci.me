@@ -1,0 +1,78 @@
+{
+  "name": "Ivan Danci",
+  "title": "Senior Software Engineer",
+  "location": "Amsterdam, NL",
+  "phone": "(+31) 684451733",
+  "birth": "Dec 1989",
+  "nationality": "Romanian",
+  "website": "https://idanci.me",
+  "summary": "Backend engineer who loves diving into all aspects of software development. From APIs to infrastructure, I enjoy building robust systems end-to-end.",
+  "proficiencies": [
+    {
+      "label": "Languages",
+      "items": ["Ruby", "Elixir", "JS/Node/TypeScript", "PHP", "Java"]
+    },
+    {
+      "label": "Frameworks",
+      "items": [
+        "Rails",
+        "Phoenix",
+        "Symfony",
+        "Spring Boot",
+        "Next.js",
+        "NestJS"
+      ]
+    },
+    {
+      "label": "AI Tooling",
+      "items": ["Claude Code", "Cursor", "opencode", "MCP"]
+    }
+  ],
+  "locations": {
+    "Remote": "Netherlands",
+    "Mollie": "Netherlands",
+    "WeTransfer": "Netherlands",
+    "Currencycloud": "Netherlands",
+    "Impraise": "Netherlands",
+    "Lumos Labs (Lumosity)": "US",
+    "Aejis": "Ukraine",
+    "Endava": "Moldova",
+    "Salt Edge": "Moldova",
+    "Fusion Works": "Moldova",
+    "Moldova State University": "Moldova"
+  },
+  "omit": {
+    "Mollie": ["Set up custom dashboards and alerts"],
+    "WeTransfer": [
+      "Direct communication and perform debugging",
+      "Lead end-to-end general performance",
+      "Set up custom dashboards and alerts"
+    ],
+    "Currencycloud": ["Incorporated engineering context"],
+    "Lumos Labs (Lumosity)": [
+      "Removed deprecated code",
+      "Integrated GitLab with Transifex"
+    ],
+    "Aejis": ["Deployed project from initiation"],
+    "Endava": [
+      "Actively contributed to regular code reviews",
+      "Instituted rails application",
+      "Leveraged azure api"
+    ],
+    "Salt Edge": [
+      "Monitored implementation of in-house build SSO",
+      "Managed implementation of customer support application",
+      "Delivered customer and technical support",
+      "Aided migration of the company",
+      "Actively participated in discussions of architecture",
+      "Supported in implementation of db sharding",
+      "Wrote effective example applications",
+      "Provided customer and technical support for Priora"
+    ],
+    "Fusion Works": [
+      "Software Engineer role focusing",
+      "Contributed to various software",
+      "Gained foundational experience"
+    ]
+  }
+}
