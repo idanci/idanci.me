@@ -1,4 +1,4 @@
-import dynamicIconImports from "lucide-react/dynamicIconImports";
+import type { IconName } from "lucide-react/dynamic";
 import { z } from "zod";
 
 export const ContactFormSchema = z.object({
@@ -16,7 +16,7 @@ export const ContactFormSchema = z.object({
 const iconLink = z.object({
   name: z.string(),
   href: z.string().url(),
-  icon: z.custom<keyof typeof dynamicIconImports>(),
+  icon: z.custom<IconName>(),
 });
 export type IconLink = z.infer<typeof iconLink>;
 
@@ -34,5 +34,7 @@ export type Experience = z.infer<typeof experience>;
 
 export const careerSchema = z.object({ career: z.array(experience) });
 export const educationSchema = z.object({ education: z.array(experience) });
-export const technologiesSchema = z.object({ technologies: z.array(experience) });
+export const technologiesSchema = z.object({
+  technologies: z.array(experience),
+});
 export const socialSchema = z.object({ socials: z.array(iconLink) });
